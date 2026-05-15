@@ -47,13 +47,20 @@ fi
 if [ -d "$REPO_DIR/wallpapers" ]; then
     cp -rv "$REPO_DIR/wallpapers/." "$HOME/Pictures/Wallpapers/"
 fi
+# Font paketleri
+if [ -f "$REPO_DIR/packages/font-packages.txt" ]; then
+    echo "Font paketleri kuruluyor..."
+    sudo pacman -S --needed - < "$REPO_DIR/packages/font-packages.txt"
+fi
 
-# Fontlar
+# Repo içindeki font dosyaları varsa ayrıca kopyala
 if [ -d "$REPO_DIR/fonts" ]; then
     mkdir -p "$HOME/.local/share/fonts"
     cp -rv "$REPO_DIR/fonts/." "$HOME/.local/share/fonts/"
-    fc-cache -fv
 fi
+
+fc-cache -fv
+
 
 echo
 echo "Restore tamamlandı."
