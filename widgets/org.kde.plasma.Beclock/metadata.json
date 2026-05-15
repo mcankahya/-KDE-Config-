@@ -1,0 +1,31 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": ""
+            }
+        ],
+        "BugReportUrl": "https://github.com/thevladsoft/Beclock-plasma6",
+        "Category": "Date and Time",
+        "Description": "Time displayed with digits and rings",
+        "FormFactors": [
+            "tablet",
+            "handset",
+            "desktop"
+        ],
+        "Icon": "preferences-system-time",
+        "Id": "org.kde.plasma.Beclock",
+        "License": "GPL-2.0+",
+        "Name": "Digital Clock BE style",
+        "Website": "https://github.com/thevladsoft/Beclock-plasma6",
+        "Version":  "6.0-BE-2.1"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time",
+        "org.kde.plasma.date"
+    ]
+}
