@@ -1,0 +1,185 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=#38004e
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=
+IntensityAmount=0
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=#000000
+ColorAmount=0.025
+ColorEffect=0
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=158,96,144
+BackgroundNormal=#440062
+DecorationFocus=197,138,164
+DecorationHover=197,138,164
+ForegroundActive=197,138,164
+ForegroundInactive=#b420ff
+ForegroundLink=197,138,164
+ForegroundNegative=#FF6A9D
+ForegroundNeutral=#FF734A
+ForegroundNormal=#f8ddff
+ForegroundPositive=#31C193
+ForegroundVisited=#C783E5
+
+[Colors:Complementary]
+BackgroundAlternate=#210031
+BackgroundNormal=#38004e
+DecorationFocus=197,138,164
+DecorationHover=197,138,164
+ForegroundActive=197,138,164
+ForegroundInactive=#b420ff
+ForegroundLink=197,138,164
+ForegroundNegative=#FF6A9D
+ForegroundNeutral=#FF734A
+ForegroundNormal=#d98cff
+ForegroundPositive=#31C193
+ForegroundVisited=#C783E5
+
+[Colors:Header]
+BackgroundAlternate=#38004e
+BackgroundNormal=#38004e
+DecorationFocus=197,138,164
+DecorationHover=197,138,164
+ForegroundActive=197,138,164
+ForegroundInactive=#b420ff
+ForegroundLink=197,138,164
+ForegroundNegative=#FF6A9D
+ForegroundNeutral=#FF734A
+ForegroundNormal=#d98cff
+ForegroundPositive=#31C193
+ForegroundVisited=#C783E5
+
+[Colors:Header][Inactive]
+BackgroundAlternate=#38004e
+BackgroundNormal=#38004e
+DecorationFocus=#ffffff
+DecorationHover=#ffffff
+ForegroundActive=#ffffff
+ForegroundInactive=#b420ff
+ForegroundLink=#6F9FE7
+ForegroundNegative=#FF6A9D
+ForegroundNeutral=#FF734A
+ForegroundNormal=#d98cff
+ForegroundPositive=#31C193
+ForegroundVisited=#C783E5
+
+[Colors:Selection]
+BackgroundAlternate=147,96,129
+BackgroundNormal=147,96,129
+DecorationFocus=197,138,164
+DecorationHover=197,138,164
+ForegroundActive=197,138,164
+ForegroundInactive=255,255,255
+ForegroundLink=158,93,123
+ForegroundNegative=#96034A
+ForegroundNeutral=#A32B02
+ForegroundNormal=255,255,255
+ForegroundPositive=#16B386
+ForegroundVisited=#682985
+
+[Colors:Tooltip]
+BackgroundAlternate=#540079
+BackgroundNormal=#38004e
+DecorationFocus=197,138,164
+DecorationHover=197,138,164
+ForegroundActive=197,138,164
+ForegroundInactive=#b420ff
+ForegroundLink=197,138,164
+ForegroundNegative=#FF6A9D
+ForegroundNeutral=#FF734A
+ForegroundNormal=#f8ddff
+ForegroundPositive=#31C193
+ForegroundVisited=#C783E5
+
+[Colors:View]
+BackgroundAlternate=#38004e
+BackgroundNormal=#210031
+DecorationFocus=197,138,164
+DecorationHover=197,138,164
+ForegroundActive=197,138,164
+ForegroundInactive=#b420ff
+ForegroundLink=197,138,164
+ForegroundNegative=#FF6A9D
+ForegroundNeutral=#FF734A
+ForegroundNormal=#f8ddff
+ForegroundPositive=#31C193
+ForegroundVisited=#C783E5
+
+[Colors:Window]
+BackgroundAlternate=#540079
+BackgroundNormal=#38004e
+DecorationFocus=197,138,164
+DecorationHover=197,138,164
+ForegroundActive=197,138,164
+ForegroundInactive=#b420ff
+ForegroundLink=197,138,164
+ForegroundNegative=#FF6A9D
+ForegroundNeutral=#FF734A
+ForegroundNormal=#d98cff
+ForegroundPositive=#31C193
+ForegroundVisited=#C783E5
+
+[General]
+AccentColor=197,138,164
+ColorScheme=MaterialYouDark
+ColorSchemeHash=7f6f690aedfa2384565f429e1b8137fa052da8fc
+UseSystemBell=true
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=none
+accentColorFromWallpaper=true
+font=ProFont IIx Nerd Font Propo,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=ProFont IIx Nerd Font,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=ProFontWindows Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=ProFont IIx Nerd Font,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+
+[Icons]
+Theme=klassy-dark
+
+[KDE]
+AnimationDurationFactor=0.17677669529663687
+LookAndFeelPackage=org.kde.klassykitedarkbottompanel.desktop
+contrast=4
+frameContrast=0.2
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=0
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Date
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=true
+Speedbar Width=141
+View Style=Detail
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[WM]
+activeBackground=84,0,121,230
+activeBlend=252,252,252
+activeFont=ProFont IIx Nerd Font,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+activeForeground=248,221,255
+inactiveBackground=0,60,27,230
+inactiveBlend=161,169,177
+inactiveForeground=0,188,92
