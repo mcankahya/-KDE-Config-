@@ -1,0 +1,19 @@
+# KDE cache / generated files
+.cache/
+*.lock
+*.tmp
+*.bak
+*.old
+*.swp
+
+# Local/private KDE state
+*.history
+session/
+ksmserverrc
+plasmashellrc
+
+# Secrets / credentials
+kwalletrc
+kiorc
+kemailidentities
+akonadi*
